@@ -1,0 +1,159 @@
+Cluster Flow
+============
+Run Complete
+
+
+The pipeline featureCounts has completed.
+
+Started: 14:47 07-05-2020
+Finished: 14:58 07-05-2020
+Duration: 10 minutes, 59 seconds
+Working Directory: /storage/CTR-Projects/CTR_DropSeq/TSC_Custom_Transcriptome/TRIMMED/
+
+
+
+
+=================================
+== CF Status Messages ==
+=================================
+
+==============================
+- Output file Sample1009_lane7_TS_GFP_ACTTGA_L007_R1_trimmed.bam_featureCounts_clusterFlow.txt
+==============================
+featureCounts successfully exited, took 17 seconds
+ - featureCounts successfully exited, took 17 seconds
+ - featureCounts successfully exited, took 26 seconds
+ - featureCounts successfully exited, took 23 seconds
+ - featureCounts successfully exited, took 18 seconds
+ - featureCounts successfully exited, took 18 seconds
+ - featureCounts successfully exited, took 22 seconds
+ - featureCounts successfully exited, took 21 seconds
+ - featureCounts successfully exited, took 17 seconds
+ - Run finished at 14:50 07-05-2020
+==============================
+- Output file lane3273_CGATGT_20_DM_L003_R1_trimmed.bam_featureCounts_clusterFlow.txt
+==============================
+featureCounts successfully exited, took 22 seconds
+ - featureCounts successfully exited, took 23 seconds
+ - featureCounts successfully exited, took 19 seconds
+ - featureCounts successfully exited, took 7 seconds
+ - featureCounts successfully exited, took 24 seconds
+ - featureCounts successfully exited, took 27 seconds
+ - featureCounts successfully exited, took 22 seconds
+ - featureCounts successfully exited, took 29 seconds
+ - featureCounts successfully exited, took 26 seconds
+ - Run finished at 14:54 07-05-2020
+==============================
+- Output file lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam_featureCounts_clusterFlow.txt
+==============================
+featureCounts successfully exited, took 25 seconds
+ - featureCounts successfully exited, took 11 seconds
+ - featureCounts successfully exited, took 12 seconds
+ - featureCounts successfully exited, took 13 seconds
+ - featureCounts successfully exited, took 14 seconds
+ - featureCounts successfully exited, took 12 seconds
+ - featureCounts successfully exited, took 12 seconds
+ - featureCounts successfully exited, took 13 seconds
+ - featureCounts successfully exited, took 14 seconds
+ - Run finished at 14:56 07-05-2020
+==============================
+- Output file lane8_24-DES1_ACAGTGAT_L008_R1_trimmed.bam_featureCounts_clusterFlow.txt
+==============================
+featureCounts successfully exited, took 23 seconds
+ - featureCounts successfully exited, took 21 seconds
+ - featureCounts successfully exited, took 20 seconds
+ - featureCounts successfully exited, took 21 seconds
+ - featureCounts successfully exited, took 24 seconds
+ - featureCounts successfully exited, took 21 seconds
+ - featureCounts successfully exited, took 24 seconds
+ - Run finished at 14:58 07-05-2020
+
+
+
+
+
+==================
+== Commands Run ==
+==================
+
+==============================
+- Output file Sample1009_lane7_TS_GFP_ACTTGA_L007_R1_trimmed.bam_featureCounts_clusterFlow.txt
+==============================
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o Sample1009_lane7_TS_GFP_ACTTGA_L007_R1_trimmed.bam_featureCounts_counts.txt Sample1009_lane7_TS_GFP_ACTTGA_L007_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o Sample1009_lane7_TS_Rosa26_ATCACG_L007_R1_trimmed.bam_featureCounts_counts.txt Sample1009_lane7_TS_Rosa26_ATCACG_L007_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o Sample1976_lane4_TS-EGFP_STEM_GCCAAT_L004_R1_trimmed.bam_featureCounts_counts.txt Sample1976_lane4_TS-EGFP_STEM_GCCAAT_L004_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o Sample1976_lane4_TS-Rs26_STEM_ACAGTG_L004_R1_trimmed.bam_featureCounts_counts.txt Sample1976_lane4_TS-Rs26_STEM_ACAGTG_L004_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane1_LOH-1_CGATGT_L001_R1_trimmed.bam_featureCounts_counts.txt lane1_LOH-1_CGATGT_L001_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane1_NEW_ACTTGA_L001_R1_trimmed.bam_featureCounts_counts.txt lane1_NEW_ACTTGA_L001_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane1_scr-1_ATCACG_L001_R1_trimmed.bam_featureCounts_counts.txt lane1_scr-1_ATCACG_L001_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane1_scr-2_TGACCA_L001_R1_trimmed.bam_featureCounts_counts.txt lane1_scr-2_TGACCA_L001_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3273_ATCACG_5_DM_L003_R1_trimmed.bam_featureCounts_counts.txt lane3273_ATCACG_5_DM_L003_R1_trimmed.bam
+==============================
+- Output file lane3273_CGATGT_20_DM_L003_R1_trimmed.bam_featureCounts_clusterFlow.txt
+==============================
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3273_CGATGT_20_DM_L003_R1_trimmed.bam_featureCounts_counts.txt lane3273_CGATGT_20_DM_L003_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3273_CTTGTA_20_TSC_L003_R1_trimmed.bam_featureCounts_counts.txt lane3273_CTTGTA_20_TSC_L003_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3273_GCCAAT_5_TSC_L003_R1_trimmed.bam_featureCounts_counts.txt lane3273_GCCAAT_5_TSC_L003_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3273_GTATGC__L003_R1_trimmed.bam_featureCounts_counts.txt lane3273_GTATGC__L003_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3_24h_DES_ACTTGAAT_L003_R1_trimmed.bam_featureCounts_counts.txt lane3_24h_DES_ACTTGAAT_L003_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3_4d_DES_CGATGTAT_L003_R1_trimmed.bam_featureCounts_counts.txt lane3_4d_DES_CGATGTAT_L003_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3_LOH-1_TTAGGCAT_L003_R1_trimmed.bam_featureCounts_counts.txt lane3_LOH-1_TTAGGCAT_L003_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3_NEW_TGACCAAT_L003_R1_trimmed.bam_featureCounts_counts.txt lane3_NEW_TGACCAAT_L003_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3_ctrl_CAGATCAT_L003_R1_trimmed.bam_featureCounts_counts.txt lane3_ctrl_CAGATCAT_L003_R1_trimmed.bam
+==============================
+- Output file lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam_featureCounts_clusterFlow.txt
+==============================
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam_featureCounts_counts.txt lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_024_1_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_024_1_L005_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_024_2_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_024_2_L005_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_03_1_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_03_1_L005_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_03_2_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_03_2_L005_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_X24_1_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_X24_1_L005_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_X24_2_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_X24_2_L005_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_X3_1_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_X3_1_L005_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_X3_2_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_X3_2_L005_R1_trimmed.bam
+==============================
+- Output file lane8_24-DES1_ACAGTGAT_L008_R1_trimmed.bam_featureCounts_clusterFlow.txt
+==============================
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane8_24-DES1_ACAGTGAT_L008_R1_trimmed.bam_featureCounts_counts.txt lane8_24-DES1_ACAGTGAT_L008_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane8_24-DES2_TAGCTTAT_L008_R1_trimmed.bam_featureCounts_counts.txt lane8_24-DES2_TAGCTTAT_L008_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane8_3-4D_GGCTACAT_L008_R1_trimmed.bam_featureCounts_counts.txt lane8_3-4D_GGCTACAT_L008_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane8_3-ctrl_CTTGTAAT_L008_R1_trimmed.bam_featureCounts_counts.txt lane8_3-ctrl_CTTGTAAT_L008_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane8_3_24_CGATGTAT_L008_R1_trimmed.bam_featureCounts_counts.txt lane8_3_24_CGATGTAT_L008_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane8_4d-DES_GCCAATAT_L008_R1_trimmed.bam_featureCounts_counts.txt lane8_4d-DES_GCCAATAT_L008_R1_trimmed.bam
+
+featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane8_ctrl_GATCAGAT_L008_R1_trimmed.bam_featureCounts_counts.txt lane8_ctrl_GATCAGAT_L008_R1_trimmed.bam
+
+
+--
+Generated by Cluster Flow 0.5 dev
+Documentation: http://clusterflow.io

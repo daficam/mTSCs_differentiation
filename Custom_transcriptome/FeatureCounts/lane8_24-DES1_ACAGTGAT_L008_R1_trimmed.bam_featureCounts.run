@@ -1,0 +1,43 @@
+/*
+Cluster Flow Run File
+Pipeline: featureCounts
+Pipeline ID: cf_featureCounts_1588859274
+Created at 14:47, 07-05-2020
+*/
+
+@split_files	9
+@total_cores	24
+@total_mem	256G
+@email	rsh46@cam.ac.uk
+@notification	suspend
+@notification	abort
+@notification	complete
+@genome	GRCm38
+@reference	fasta	/storage/Genomes/Mus_musculus/GRCm38/
+@reference	gtf	/storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf
+@reference	bowtie2	/storage/Genomes/Mus_musculus/GRCm38/
+@reference	hisat2	/storage/Genomes/Mus_musculus/GRCm38/GRCm38
+@reference	bismark	/storage/Genomes/Mus_musculus/GRCm38
+@reference	star	/storage/Genomes/Mus_musculus/GRCm38/STAR/
+@reference	bwa	/storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.dna.chromosome.all.fa.gz
+@reference	kallisto	/storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.cdna.all.idx
+@reference	refgene_bed	/storage/Genomes/Mus_musculus/GRCm38/mm10_RefSeq.bed
+
+#featureCounts
+
+
+
+start_000	lane8_24-DES1_ACAGTGAT_L008_R1_trimmed.bam
+start_000	lane8_24-DES2_TAGCTTAT_L008_R1_trimmed.bam
+start_000	lane8_3-4D_GGCTACAT_L008_R1_trimmed.bam
+start_000	lane8_3-ctrl_CTTGTAAT_L008_R1_trimmed.bam
+start_000	lane8_3_24_CGATGTAT_L008_R1_trimmed.bam
+start_000	lane8_4d-DES_GCCAATAT_L008_R1_trimmed.bam
+start_000	lane8_ctrl_GATCAGAT_L008_R1_trimmed.bam
+cf_featureCounts_1588859274_featureCounts_547	lane8_24-DES1_ACAGTGAT_L008_R1_trimmed.bam_featureCounts_counts.txt
+cf_featureCounts_1588859274_featureCounts_547	lane8_24-DES2_TAGCTTAT_L008_R1_trimmed.bam_featureCounts_counts.txt
+cf_featureCounts_1588859274_featureCounts_547	lane8_3-4D_GGCTACAT_L008_R1_trimmed.bam_featureCounts_counts.txt
+cf_featureCounts_1588859274_featureCounts_547	lane8_3-ctrl_CTTGTAAT_L008_R1_trimmed.bam_featureCounts_counts.txt
+cf_featureCounts_1588859274_featureCounts_547	lane8_3_24_CGATGTAT_L008_R1_trimmed.bam_featureCounts_counts.txt
+cf_featureCounts_1588859274_featureCounts_547	lane8_4d-DES_GCCAATAT_L008_R1_trimmed.bam_featureCounts_counts.txt
+cf_featureCounts_1588859274_featureCounts_547	lane8_ctrl_GATCAGAT_L008_R1_trimmed.bam_featureCounts_counts.txt

@@ -1,0 +1,471 @@
+
+--------------------------------------------------------------------------------
+Module:			featureCounts
+Run File:		lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam_featureCounts.run
+Job ID:			cf_featureCounts_1588859274_featureCounts_499
+Previous Job ID:	start_000
+Date & Time:		14:54, 07-05-2020
+--------------------------------------------------------------------------------
+
+
+Using GTF file /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf
+
+---------- featureCounts version information ----------
+
+featureCounts v1.5.0-p2
+
+Warning: something's wrong at /home/rsh46/.clusterflow/modules/featureCounts.cfmod.pl line 69.
+
+------- End of featureCounts version information ------
+
+###CFCMD featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam_featureCounts_counts.txt lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	v1.5.0-p2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam       ||
+||                                                                            ||
+||             Output file : lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam_fea ... ||
+||                 Summary : lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam_fea ... ||
+||              Annotation : /storage/Genomes/Mus_musculus/GRCm38/Mus_mus ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus ... ||
+||    Features : 710016                                                       ||
+||    Meta-features : 47729                                                   ||
+||    Chromosomes/contigs : 45                                                ||
+||                                                                            ||
+|| Process BAM file lane3_scr-1_ATCACGAT_L003_R1_trimmed.bam...               ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 42074991                                                  ||
+||    Successfully assigned reads : 29117941 (69.2%)                          ||
+||    Running time : 0.33 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+###CF featureCounts successfully exited, took 25 seconds
+
+###CFCMD featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_024_1_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_024_1_L005_R1_trimmed.bam
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	v1.5.0-p2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S lane5_PL_024_1_L005_R1_trimmed.bam             ||
+||                                                                            ||
+||             Output file : lane5_PL_024_1_L005_R1_trimmed.bam_featureCo ... ||
+||                 Summary : lane5_PL_024_1_L005_R1_trimmed.bam_featureCo ... ||
+||              Annotation : /storage/Genomes/Mus_musculus/GRCm38/Mus_mus ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus ... ||
+||    Features : 710016                                                       ||
+||    Meta-features : 47729                                                   ||
+||    Chromosomes/contigs : 45                                                ||
+||                                                                            ||
+|| Process BAM file lane5_PL_024_1_L005_R1_trimmed.bam...                     ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 18121493                                                  ||
+||    Successfully assigned reads : 9911626 (54.7%)                           ||
+||    Running time : 0.10 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+###CF featureCounts successfully exited, took 11 seconds
+
+###CFCMD featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_024_2_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_024_2_L005_R1_trimmed.bam
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	v1.5.0-p2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S lane5_PL_024_2_L005_R1_trimmed.bam             ||
+||                                                                            ||
+||             Output file : lane5_PL_024_2_L005_R1_trimmed.bam_featureCo ... ||
+||                 Summary : lane5_PL_024_2_L005_R1_trimmed.bam_featureCo ... ||
+||              Annotation : /storage/Genomes/Mus_musculus/GRCm38/Mus_mus ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus ... ||
+||    Features : 710016                                                       ||
+||    Meta-features : 47729                                                   ||
+||    Chromosomes/contigs : 45                                                ||
+||                                                                            ||
+|| Process BAM file lane5_PL_024_2_L005_R1_trimmed.bam...                     ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 18338915                                                  ||
+||    Successfully assigned reads : 10036576 (54.7%)                          ||
+||    Running time : 0.11 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+###CF featureCounts successfully exited, took 12 seconds
+
+###CFCMD featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_03_1_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_03_1_L005_R1_trimmed.bam
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	v1.5.0-p2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S lane5_PL_03_1_L005_R1_trimmed.bam              ||
+||                                                                            ||
+||             Output file : lane5_PL_03_1_L005_R1_trimmed.bam_featureCou ... ||
+||                 Summary : lane5_PL_03_1_L005_R1_trimmed.bam_featureCou ... ||
+||              Annotation : /storage/Genomes/Mus_musculus/GRCm38/Mus_mus ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus ... ||
+||    Features : 710016                                                       ||
+||    Meta-features : 47729                                                   ||
+||    Chromosomes/contigs : 45                                                ||
+||                                                                            ||
+|| Process BAM file lane5_PL_03_1_L005_R1_trimmed.bam...                      ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 23196224                                                  ||
+||    Successfully assigned reads : 13088478 (56.4%)                          ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+###CF featureCounts successfully exited, took 13 seconds
+
+###CFCMD featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_03_2_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_03_2_L005_R1_trimmed.bam
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	v1.5.0-p2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S lane5_PL_03_2_L005_R1_trimmed.bam              ||
+||                                                                            ||
+||             Output file : lane5_PL_03_2_L005_R1_trimmed.bam_featureCou ... ||
+||                 Summary : lane5_PL_03_2_L005_R1_trimmed.bam_featureCou ... ||
+||              Annotation : /storage/Genomes/Mus_musculus/GRCm38/Mus_mus ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus ... ||
+||    Features : 710016                                                       ||
+||    Meta-features : 47729                                                   ||
+||    Chromosomes/contigs : 45                                                ||
+||                                                                            ||
+|| Process BAM file lane5_PL_03_2_L005_R1_trimmed.bam...                      ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 23555137                                                  ||
+||    Successfully assigned reads : 13299376 (56.5%)                          ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+###CF featureCounts successfully exited, took 14 seconds
+
+###CFCMD featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_X24_1_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_X24_1_L005_R1_trimmed.bam
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	v1.5.0-p2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S lane5_PL_X24_1_L005_R1_trimmed.bam             ||
+||                                                                            ||
+||             Output file : lane5_PL_X24_1_L005_R1_trimmed.bam_featureCo ... ||
+||                 Summary : lane5_PL_X24_1_L005_R1_trimmed.bam_featureCo ... ||
+||              Annotation : /storage/Genomes/Mus_musculus/GRCm38/Mus_mus ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus ... ||
+||    Features : 710016                                                       ||
+||    Meta-features : 47729                                                   ||
+||    Chromosomes/contigs : 45                                                ||
+||                                                                            ||
+|| Process BAM file lane5_PL_X24_1_L005_R1_trimmed.bam...                     ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 19754282                                                  ||
+||    Successfully assigned reads : 12021356 (60.9%)                          ||
+||    Running time : 0.11 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+###CF featureCounts successfully exited, took 12 seconds
+
+###CFCMD featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_X24_2_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_X24_2_L005_R1_trimmed.bam
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	v1.5.0-p2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S lane5_PL_X24_2_L005_R1_trimmed.bam             ||
+||                                                                            ||
+||             Output file : lane5_PL_X24_2_L005_R1_trimmed.bam_featureCo ... ||
+||                 Summary : lane5_PL_X24_2_L005_R1_trimmed.bam_featureCo ... ||
+||              Annotation : /storage/Genomes/Mus_musculus/GRCm38/Mus_mus ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus ... ||
+||    Features : 710016                                                       ||
+||    Meta-features : 47729                                                   ||
+||    Chromosomes/contigs : 45                                                ||
+||                                                                            ||
+|| Process BAM file lane5_PL_X24_2_L005_R1_trimmed.bam...                     ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 20061556                                                  ||
+||    Successfully assigned reads : 12204735 (60.8%)                          ||
+||    Running time : 0.11 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+###CF featureCounts successfully exited, took 12 seconds
+
+###CFCMD featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_X3_1_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_X3_1_L005_R1_trimmed.bam
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	v1.5.0-p2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S lane5_PL_X3_1_L005_R1_trimmed.bam              ||
+||                                                                            ||
+||             Output file : lane5_PL_X3_1_L005_R1_trimmed.bam_featureCou ... ||
+||                 Summary : lane5_PL_X3_1_L005_R1_trimmed.bam_featureCou ... ||
+||              Annotation : /storage/Genomes/Mus_musculus/GRCm38/Mus_mus ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus ... ||
+||    Features : 710016                                                       ||
+||    Meta-features : 47729                                                   ||
+||    Chromosomes/contigs : 45                                                ||
+||                                                                            ||
+|| Process BAM file lane5_PL_X3_1_L005_R1_trimmed.bam...                      ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 24241099                                                  ||
+||    Successfully assigned reads : 13388917 (55.2%)                          ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+###CF featureCounts successfully exited, took 13 seconds
+
+###CFCMD featureCounts -T 4   -t exon -g gene_id -a /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -o lane5_PL_X3_2_L005_R1_trimmed.bam_featureCounts_counts.txt lane5_PL_X3_2_L005_R1_trimmed.bam
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	v1.5.0-p2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S lane5_PL_X3_2_L005_R1_trimmed.bam              ||
+||                                                                            ||
+||             Output file : lane5_PL_X3_2_L005_R1_trimmed.bam_featureCou ... ||
+||                 Summary : lane5_PL_X3_2_L005_R1_trimmed.bam_featureCou ... ||
+||              Annotation : /storage/Genomes/Mus_musculus/GRCm38/Mus_mus ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus ... ||
+||    Features : 710016                                                       ||
+||    Meta-features : 47729                                                   ||
+||    Chromosomes/contigs : 45                                                ||
+||                                                                            ||
+|| Process BAM file lane5_PL_X3_2_L005_R1_trimmed.bam...                      ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 24581651                                                  ||
+||    Successfully assigned reads : 13582295 (55.3%)                          ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+###CF featureCounts successfully exited, took 14 seconds
+
+
+
+================================================================================
+
+
+
+
+
+###CF Run finished at 14:56 07-05-2020
+
