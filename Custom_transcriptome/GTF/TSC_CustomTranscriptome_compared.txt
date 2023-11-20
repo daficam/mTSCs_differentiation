@@ -1,0 +1,30 @@
+# gffcompare v0.10.6 | Command line was:
+#gffcompare -r /storage/Genomes/Mus_musculus/GRCm38/Mus_musculus.GRCm38.84.gtf -G -o TSC_CustomTranscriptome_compared.txt TSC_CustomTranscriptome.gtf
+#
+
+#= Summary for dataset: TSC_CustomTranscriptome.gtf 
+#     Query mRNAs :  154344 in   57592 loci  (121867 multi-exon transcripts)
+#            (17952 multi-transcript loci, ~2.7 transcripts per locus)
+# Reference mRNAs :  114548 in   46245 loci  (92905 multi-exon)
+# Super-loci w/ reference transcripts:    41087
+#-----------------| Sensitivity | Precision  |
+        Base level:   100.0     |    91.5    |
+        Exon level:   100.0     |    90.2    |
+      Intron level:    99.5     |    92.3    |
+Intron chain level:   100.0     |    76.2    |
+  Transcript level:   100.0     |    74.2    |
+       Locus level:   100.0     |    79.8    |
+
+     Matching intron chains:   92905
+       Matching transcripts:  114548
+              Matching loci:   46245
+
+          Missed exons:       0/389444	(  0.0%)
+           Novel exons:   23387/441384	(  5.3%)
+        Missed introns:    1185/258564	(  0.5%)
+         Novel introns:    4447/278880	(  1.6%)
+           Missed loci:       0/46245	(  0.0%)
+            Novel loci:   11162/57592	( 19.4%)
+
+ Total union super-loci across all input datasets: 57592 
+154344 out of 154344 consensus transcripts written in TSC_CustomTranscriptome_compared.annotated.gtf (0 discarded as redundant)
